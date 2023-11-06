@@ -39,6 +39,7 @@ export default {
           this.$router.push({ path: "/test-task-courses/" });
         }
       }
+      window.location.reload();
       //location.reload(); Uncomment for local development & page will reload after logout
     },
     openNavbar() {
