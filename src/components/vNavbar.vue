@@ -50,7 +50,6 @@ export default {
 
 <template>
   <nav class="nav">
-    {{ isProduction }}
     <ul class="nav-list" :class="{ 'nav-list--active': showNavbar }">
       <li class="nav-item">
         <router-link :to="rewriteHomeLink" class="nav-link">Home</router-link>

@@ -49,7 +49,6 @@ export default {
 
 <template>
   <form @submit.prevent="handleAuth" class="login-form form">
-    {{ isProduction }}
     <div class="form-group">
       <label for="email" class="form-label">Email</label>
       <input
