@@ -1,0 +1,94 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "HTML Basics",
+      "description": "HTML provides the content that gives web pages structure, by using elements and tags, you can add text, images, videos, forms, and more. Learning HTML basics is an important first step in your web development journey and an essential skill for front- and back-end developers.",
+      "image": {
+        "url": "https://placehold.co/670x420"
+      },
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Elements and Structure",
+          "description": "Learn about HTML elements and structure, the building blocks of websites.",
+          "content": "In cursus tortor felis, vitae ullamcorper massa egestas nec. Suspendisse dapibus nibh ut ullamcorper consectetur. Cras turpis dui, elementum ut nisi quis, mollis tempus leo. Nunc dignissim tellus a dictum porttitor. Suspendisse potenti. Fusce vel libero ac lectus cursus ullamcorper eget eget metus. Suspendisse scelerisque sagittis consectetur. Integer consequat dapibus sem, sed tincidunt ex cursus nec. In vitae sollicitudin odio, ac posuere nulla. Nam malesuada convallis mauris, a eleifend augue mattis non. Morbi fringilla, leo ac volutpat consequat, ex urna egestas diam, et bibendum enim erat ut tellus. Sed sed dignissim tortor. Nam vitae augue magna. Suspendisse pretium interdum dui, eget scelerisque lacus tristique fermentum. Quisque sagittis vulputate augue, quis ullamcorper tortor."
+        },
+        {
+          "id": 2,
+          "title": "Tables",
+          "description": "Learn all the syntax you need to create tables in your HTML documents. ",
+          "content": "Pellentesque et porttitor metus, id lacinia lacus. Nunc fermentum accumsan elit, sed ultricies elit maximus non. Etiam a varius nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ipsum ligula, posuere ac tempus ut, elementum nec massa. Donec id volutpat metus. Nullam tristique quam ex. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi vitae neque venenatis, ultricies dolor ac, vestibulum enim."
+        },
+        {
+          "id": 3,
+          "title": "Forms",
+          "description": "Take this course and learn about the inner workings of an HTML form! Learn how to create your own form and integrate HTML5 validations.",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec eros ornare risus fermentum posuere. Nam suscipit nunc non magna commodo fermentum. Donec vehicula, purus vel bibendum placerat, purus lectus maximus purus, sit amet ultrices ipsum sem vitae diam. Aliquam et nibh lectus. Vestibulum elementum lectus in dolor finibus feugiat sit amet sed lorem. Mauris rutrum varius lectus eget congue. Ut vel massa tellus. Aenean nec eros placerat, ornare arcu eget, mattis eros. Phasellus in dapibus massa, a imperdiet nibh. Vivamus faucibus eget augue efficitur egestas. Quisque vulputate nisl at lorem feugiat, eget ultrices lectus viverra. Integer varius, libero nec sodales bibendum, nulla magna gravida magna, non pretium est urna sit amet sem. Morbi volutpat urna nec augue ultrices luctus. Vivamus dictum est non blandit placerat."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "CSS Basics",
+      "description": "You’ll find learning CSS essential in styling websites. Web developers use it to build on basic HTML and add personality to plain text pages. This course helps you expand your coding foundation and gives you CSS interactive practice to start adding colors and background images or editing layouts so you can create your very own, unique stylized web pages.",
+      "image": {
+        "url": "https://placehold.co/670x420"
+      },
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Syntax and Selectors",
+          "description": "Learn how to add styles websites with CSS and how to use selectors to apply styles to specific elements.",
+          "content": "In cursus tortor felis, vitae ullamcorper massa egestas nec. Suspendisse dapibus nibh ut ullamcorper consectetur. Cras turpis dui, elementum ut nisi quis, mollis tempus leo. Nunc dignissim tellus a dictum porttitor. Suspendisse potenti. Fusce vel libero ac lectus cursus ullamcorper eget eget metus. Suspendisse scelerisque sagittis consectetur. Integer consequat dapibus sem, sed tincidunt ex cursus nec. In vitae sollicitudin odio, ac posuere nulla. Nam malesuada convallis mauris, a eleifend augue mattis non. Morbi fringilla, leo ac volutpat consequat, ex urna egestas diam, et bibendum enim erat ut tellus. Sed sed dignissim tortor. Nam vitae augue magna. Suspendisse pretium interdum dui, eget scelerisque lacus tristique fermentum. Quisque sagittis vulputate augue, quis ullamcorper tortor."
+        },
+        {
+          "id": 2,
+          "title": "Visual Rules",
+          "description": "In this course, you will learn how to style individual and groups of elements using various visual CSS rules. ",
+          "content": "Pellentesque et porttitor metus, id lacinia lacus. Nunc fermentum accumsan elit, sed ultricies elit maximus non. Etiam a varius nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ipsum ligula, posuere ac tempus ut, elementum nec massa. Donec id volutpat metus. Nullam tristique quam ex. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi vitae neque venenatis, ultricies dolor ac, vestibulum enim."
+        },
+        {
+          "id": 3,
+          "title": "The Box Model",
+          "description": "In this course, you will learn how to use the Box Model to position HTML elements on your web page.",
+          "content": "Pellentesque et porttitor metus, id lacinia lacus. Nunc fermentum accumsan elit, sed ultricies elit maximus non. Etiam a varius nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ipsum ligula, posuere ac tempus ut, elementum nec massa. Donec id volutpat metus. Nullam tristique quam ex. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi vitae neque venenatis, ultricies dolor ac, vestibulum enim."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Javascript Basics",
+      "description": "You interact with JavaScript code all the time — you just might not realize it. It powers dynamic behavior on websites (like this one) and plays an important role in many fields, like front- and back-end engineering, game and mobile development, virtual reality, and more. In this course, you’ll learn JavaScript fundamentals that will be helpful as you dive deeper into more advanced topics.",
+      "image": {
+        "url": "https://placehold.co/670x420"
+      },
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "description": "In this course, you will learn about JavaScript data types, built-in methods, and variables.",
+          "content": "In cursus tortor felis, vitae ullamcorper massa egestas nec. Suspendisse dapibus nibh ut ullamcorper consectetur. Cras turpis dui, elementum ut nisi quis, mollis tempus leo. Nunc dignissim tellus a dictum porttitor. Suspendisse potenti. Fusce vel libero ac lectus cursus ullamcorper eget eget metus. Suspendisse scelerisque sagittis consectetur. Integer consequat dapibus sem, sed tincidunt ex cursus nec. In vitae sollicitudin odio, ac posuere nulla. Nam malesuada convallis mauris, a eleifend augue mattis non. Morbi fringilla, leo ac volutpat consequat, ex urna egestas diam, et bibendum enim erat ut tellus. Sed sed dignissim tortor. Nam vitae augue magna. Suspendisse pretium interdum dui, eget scelerisque lacus tristique fermentum. Quisque sagittis vulputate augue, quis ullamcorper tortor."
+        },
+        {
+          "id": 2,
+          "title": "Conditionals",
+          "description": "Learn how to use if, else if, else, switch, and ternary syntax to control the flow of a program in JavaScript. ",
+          "content": "In cursus tortor felis, vitae ullamcorper massa egestas nec. Suspendisse dapibus nibh ut ullamcorper consectetur. Cras turpis dui, elementum ut nisi quis, mollis tempus leo. Nunc dignissim tellus a dictum porttitor. Suspendisse potenti. Fusce vel libero ac lectus cursus ullamcorper eget eget metus. Suspendisse scelerisque sagittis consectetur. Integer consequat dapibus sem, sed tincidunt ex cursus nec. In vitae sollicitudin odio, ac posuere nulla. Nam malesuada convallis mauris, a eleifend augue mattis non. Morbi fringilla, leo ac volutpat consequat, ex urna egestas diam, et bibendum enim erat ut tellus. Sed sed dignissim tortor. Nam vitae augue magna. Suspendisse pretium interdum dui, eget scelerisque lacus tristique fermentum."
+        },
+        {
+          "id": 3,
+          "title": "Functions",
+          "description": "Learn about JavaScript function syntax, passing data to functions, the return keyword, ES6 arrow functions, and concise body syntax. ",
+          "content": "In cursus tortor felis, vitae ullamcorper massa egestas nec. Suspendisse dapibus nibh ut ullamcorper consectetur. Fusce vel libero ac lectus cursus ullamcorper eget eget metus. Suspendisse scelerisque sagittis consectetur. Integer consequat dapibus sem, sed tincidunt ex cursus nec. In vitae sollicitudin odio, ac posuere nulla."
+        },
+        {
+          "id": 4,
+          "title": "Scope",
+          "description": "Learn about global and block level scope in JavaScript.",
+          "content": "In cursus tortor felis, vitae ullamcorper massa egestas nec. Suspendisse dapibus nibh ut ullamcorper consectetur. Cras turpis dui, elementum ut nisi quis, mollis tempus leo. Nunc dignissim tellus a dictum porttitor. Suspendisse potenti. Fusce vel libero ac lectus cursus ullamcorper eget eget metus. Suspendisse scelerisque sagittis consectetur. Integer consequat dapibus sem, sed tincidunt ex cursus nec."
+        }
+      ]
+    }
+  ]
+}

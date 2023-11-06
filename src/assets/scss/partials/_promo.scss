@@ -1,0 +1,14 @@
+.promo {
+    position: relative;
+    @include respond-to("md") {
+        padding: 80px 40px;
+        background-color: var(--promo-bg-color);
+    }
+    &-title {
+        color: var(--primary-text-color);
+        @include respond-to("md") {
+            padding-bottom: 40px;
+            color: var(--promo-text-color);
+        }
+    }
+}

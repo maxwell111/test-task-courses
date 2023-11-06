@@ -1,0 +1,52 @@
+.courses {
+    margin-top: 20px;
+    position: relative;
+    @include respond-to("md") {
+        margin-top: 48px;
+    }
+    &-list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        list-style-type: none;
+        @include respond-to("md") {
+            flex-direction: row;
+            flex-wrap: nowrap;
+            margin: 0 -12px;
+        }
+    }
+    &-card {
+        margin: 0 0 15px;
+        padding: 15px 20px;
+        background: var(--courses-card-bg-color);
+        border: 1px solid var(--courses-card-border-color);
+        border-radius: var(--border-radius-base);
+        @include respond-to("md") {
+            width: calc(100% / 3 - 24px);
+            margin: 0 12px 24px;
+            padding: 24px 30px;
+        }
+    }
+    .card {
+        &-image {
+            display: block;
+            position: relative;
+            overflow: hidden;
+        }
+        &-title {
+            margin: 0;
+        }
+        &-info {
+            margin-bottom: 10px;
+            @include respond-to("md") {
+                margin-bottom: 30px;
+            }
+        }
+        &-action {
+            text-align: right;
+        }
+        &-lessons {
+            color: var(--courses-card-lessons-color);
+        }
+    }
+}

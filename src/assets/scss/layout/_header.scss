@@ -1,0 +1,21 @@
+.header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: var(--header-bg-color);
+    height: 76px;
+    top: 0;
+    box-shadow: var(--header-shadow);
+    &--wrap {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 0;
+    }
+    &-logo {
+        width: 100%;
+        max-width: 180px;
+        line-height: 0;
+    }
+}

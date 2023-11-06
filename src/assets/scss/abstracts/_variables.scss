@@ -1,0 +1,61 @@
+:root {
+    --primary-text-color: #222;
+    --primary-bg-color: #fff;
+    --primary-color: #46c646;
+    --secondary-color: #2993de;
+    --font-size-base: 16px;
+    --font-family-base: system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+        sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --border-radius-base: 4px;
+    --line-height-base: 1.5;
+    --image-max-width: 100%;
+
+    // Button
+    --button-text-color: #fff;
+    --button--close-bg-color: #e9e9e9;
+    --button--close-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+    --button--close-border-radius: 4px;
+    --button--toggle-lines-color: #021e37;
+
+    // Header
+    --header-bg-color: #fff;
+    --header-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+
+    // Navbar
+    --navbar-bg-color: #fff;
+    --header-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+
+    // Promo block
+    --promo-bg-color: #5f99af;
+    --promo-text-color: #fff;
+
+    // Courses list block
+    --courses-card-bg-color: #544f320f;
+    --courses-card-border-color: #d8d8d8;
+    --courses-card-lessons-color: rgba(0, 0, 0, 0.38);
+    --courses-card-completed-bg-color: var(--primary-color);
+    --courses-card-completed-text-color: #fff;
+    --courses-card-completed-border-radius-mobile: 4px 4px 0px 0px;
+    --courses-card-completed-border-radius-desktop: 4px 0px 0px 4px;
+
+    // Login
+    --login-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+        0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    --login-input-text-color: rgba(0, 0, 0, 0.87);
+    --login-input-border-color: rgba(0, 0, 0, 0.38);
+    --login-input-border-color-invalid: #ff3232;
+
+    // Promo block
+    --course-info-bg-color: #5f99af;
+    --course-info-text-color: #fff;
+
+    // Course progress
+    --course-progress-border-color: #d8d8d8;
+    --course-progress-bg-color: var(--secondary-color);
+    --course-progress-text-color: #fff;
+
+    // Lesson overlay
+    --lesson-overlay-bg-color: #fff;
+    --lesson-overlay-triangles-bg-color: #5f99af;
+    --lesson-overlay-content-border-color: #eee;
+}

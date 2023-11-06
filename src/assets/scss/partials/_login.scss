@@ -1,0 +1,46 @@
+.login {
+    margin-top: 40px;
+    max-width: 720px;
+    margin: 0 auto;
+    box-shadow: var(--login-box-shadow);
+    padding: 45px 15px;
+    border-radius: var(--courses-card-border-radius);
+    &-form {
+        width: 100%;
+        display: block;
+    }
+    .form {
+        &-group {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &-input {
+            color: var(--login-input-text-color);
+            flex: 1 1 auto;
+            line-height: 20px;
+            max-width: 100%;
+            min-width: 0;
+            padding: 8px 0;
+            width: 100%;
+            max-height: 32px;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid var(--login-input-border-color);
+            &:focus {
+                outline: none;
+            }
+            &--invalid {
+                border-color: var(--login-input-border-color-invalid);
+            }
+        }
+        &-message {
+            &--error {
+                color: #ff3232;
+            }
+        }
+    }
+}

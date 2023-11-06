@@ -1,0 +1,79 @@
+.course-lessons {
+    margin-top: 20px;
+    position: relative;
+    @include respond-to("md") {
+        margin-top: 48px;
+    }
+    &-list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        list-style-type: none;
+    }
+    &-card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 0 15px;
+        padding: 25px 15px;
+        background: var(--courses-card-bg-color);
+        border: 1px solid var(--courses-card-border-color);
+        border-radius: var(--border-radius-base);
+        position: relative;
+        overflow: hidden;
+        @include respond-to("md") {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px 30px;
+            margin: 0 0 24px;
+        }
+    }
+    .card {
+        &-image {
+            display: block;
+            position: relative;
+            overflow: hidden;
+        }
+        &-info {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            margin-right: 20px;
+        }
+        &-lessons {
+            color: var(--courses-card-lessons-color);
+        }
+        &--completed {
+            padding-top: 55px;
+            @include respond-to("md") {
+                padding-left: 150px;
+            }
+            &:before {
+                content: "Completed";
+                position: absolute;
+                left: 0;
+                top: 0;
+                right: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 30px;
+                background: var(--courses-card-completed-bg-color);
+                color: var(--courses-card-completed-text-color);
+                border-radius: var(
+                    --courses-card-completed-border-radius-mobile
+                );
+                padding: 20px;
+                box-sizing: border-box;
+                @include respond-to("md") {
+                    right: auto;
+                    height: 100%;
+                    border-radius: var(
+                        --courses-card-completed-border-radius-desktop
+                    );
+                }
+            }
+        }
+    }
+}

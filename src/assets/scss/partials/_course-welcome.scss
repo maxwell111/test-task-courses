@@ -1,0 +1,27 @@
+.course-welcome {
+    @include respond-to("md") {
+        padding: 80px 40px;
+        background: var(--course-info-bg-color);
+        color: var(--course-info-text-color);
+    }
+    &-content {
+        display: flex;
+        flex-direction: column;
+        @include respond-to("md") {
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+    .content {
+        &-title {
+            margin: 0 0 10px;
+        }
+        &-actions {
+            @include respond-to("md") {
+                margin-left: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.course-progress {
+    margin-top: 5px;
+    padding-bottom: 20px;
+    @include respond-to("md") {
+        margin-top: 48px;
+        padding-bottom: 0;
+    }
+    &-shell {
+        height: 38px;
+        width: 100%;
+        border: 1px solid var(--course-progress-border-color);
+        border-radius: 13px;
+        padding: 3px;
+        position: relative;
+    }
+    &-bar {
+        background: var(--course-progress-bg-color);
+        height: 30px;
+        width: 15px;
+        border-radius: 9px;
+        span {
+            float: right;
+            padding: 6px 5px;
+            color: var(--course-progress-text-color);
+            font-size: 12px;
+        }
+    }
+    &-start {
+        position: absolute;
+        left: 0;
+        bottom: -22px;
+    }
+}
