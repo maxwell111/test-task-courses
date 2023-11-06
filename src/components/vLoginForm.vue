@@ -32,7 +32,7 @@ export default {
         } else {
           this.$router.push({ path: "/test-task-courses/" });
         }
-        //location.reload(); Uncomment for local development & page will reload after logout
+        window.location.reload();
       } catch (error) {
         this.error = "An error occurred during login.";
         console.error("Fetch error:", error);

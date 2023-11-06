@@ -40,7 +40,6 @@ export default {
         }
       }
       window.location.reload();
-      //location.reload(); Uncomment for local development & page will reload after logout
     },
     openNavbar() {
       this.showNavbar = !this.showNavbar;
