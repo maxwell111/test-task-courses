@@ -39,6 +39,7 @@ export default {
           this.$router.push({ path: "/test-task-courses/" });
         }
       }
+      location.reload();
     },
     openNavbar() {
       this.showNavbar = !this.showNavbar;
